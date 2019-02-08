@@ -15,6 +15,15 @@
       h3 Want cool effects?
       p.
         Code your own, or try stealing for the other slideshows !
+
+    slide(enter='fadeIn')
+      h3 My content
+      .center
+      iframe.my-iframe(src="https://www.youtube.com/embed/Wy9q22isx3U")
+      <button>vvdvd</button>
+      //- <iframe src="https://www.youtube.com/embed/Wy9q22isx3U">
+      //- </iframe>
+
 </template>
 
 <script>
@@ -48,6 +57,12 @@ export default {
     width: 25em;
     max-width: 80%;
     margin: 0 auto;
+    text-align: center;
+  }
+  .my-iframe{
+    width: 100%;
+    height: 600px;
+    background: red;
   }
 }
 </style>
